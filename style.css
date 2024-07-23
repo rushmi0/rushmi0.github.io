@@ -356,7 +356,7 @@ body {
 
 .arrows {
     position: fixed;
-    bottom: 5%;
+    bottom: 9%;
     width: 1140px;
     max-width: 80%;
     display: flex;
