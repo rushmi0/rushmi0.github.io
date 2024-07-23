@@ -434,8 +434,15 @@ body {
 /* For devices with a screen width up to 1200px */
 @media screen and (min-width: 1200px) {
 
+    .carousel .list .item .introduce .topic {
+        font-size: 6em;
+        font-weight: 500;
+    }
+
+
     .carousel .list .item .introduce .des {
-        font-size: 170%;
+        width: 180%;
+        font-size: 200%;
         color: rgba(58, 55, 55, 0.6);
     }
 
