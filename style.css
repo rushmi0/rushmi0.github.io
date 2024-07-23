@@ -431,65 +431,6 @@ body {
 /* ////////////////// Screen Size ////////////////// */
 
 
-@media screen and (max-width: 991px) {
-
-    .carousel .list .item .introduce .des {
-        font-size: 150%;
-        color: rgba(58, 55, 55, 0.6);
-    }
-
-    .carousel {
-        position: relative;
-        height: 870px;
-        overflow: hidden;
-        margin-top: -50px;
-    }
-
-    /* ipad, tablets */
-    .carousel .list .item {
-        width: 90%;
-    }
-
-    .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
-        overflow: auto;
-    }
-
-    .carousel.showDetail .list .item:nth-child(2) .detail .title {
-        font-size: 2em;
-    }
-
-    /*Text*/
-    .text-title {
-        font-size: 1.3em;
-        font-weight: bold;
-    }
-
-    .text-body {
-        font-size: 0.9em;
-        color: rgb(85, 82, 82);
-    }
-
-    /* Card Detail */
-    .card {
-        margin-top: 30px;
-        width: 390px;
-        height: 500px;
-        border-radius: 20px;
-        position: absolute;
-        left: 20%;
-        padding: 1.8rem;
-        border: 2px solid #c3c6ce;
-        -webkit-transition: 0.5s ease-out;
-        transition: 0.5s ease-out;
-        overflow: visible;
-        background-color: rgba(255, 255, 255, 0.3);
-        animation: glowing-border 5s linear infinite;
-    }
-
-}
-
-
-
 /* For devices with a screen width up to 1200px */
 @media screen and (min-width: 1200px) {
 
@@ -519,12 +460,12 @@ body {
 
     /* Card Detail */
     .card {
-        margin-top: 70px;
+        margin-top: 150px;
         width: 390px;
-        height: 650px;
+        height: 770px;
         border-radius: 20px;
         position: relative;
-        padding: 2.8rem;
+        padding: 1.8rem;
         border: 2px solid #c3c6ce;
         -webkit-transition: 0.5s ease-out;
         transition: 0.5s ease-out;
@@ -535,28 +476,53 @@ body {
 
 }
 
-@media screen and (max-width: 1200px) {
 
+@media screen and (max-width: 991px) {
 
+    .carousel .list .item .introduce .des {
+        font-size: 150%;
+        color: rgba(58, 55, 55, 0.6);
+    }
+
+    .carousel {
+        position: relative;
+        height: 870px;
+        overflow: hidden;
+        margin-top: -50px;
+    }
+
+    /* ipad, tablets */
+    .carousel .list .item {
+        width: 90%;
+    }
+
+    .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
+        overflow: auto;
+    }
+
+    .carousel.showDetail .list .item:nth-child(2) .detail .title {
+        font-size: 2em;
+    }
 
     /*Text*/
     .text-title {
-        font-size: 1.3em;
+        font-size: 1.5em;
         font-weight: bold;
     }
 
     .text-body {
-        font-size: 0.9em;
+        font-size: 1.1em;
         color: rgb(85, 82, 82);
     }
 
     /* Card Detail */
     .card {
-        margin-top: 90px;
+        margin-top: 170px;
         width: 390px;
-        height: 630px;
+        height: 720px;
         border-radius: 20px;
-        position: relative;
+        position: absolute;
+        left: 20%;
         padding: 1.8rem;
         border: 2px solid #c3c6ce;
         -webkit-transition: 0.5s ease-out;
@@ -628,24 +594,24 @@ body {
     }
 
     .text-body {
-        font-size: 0.7em;
+        font-size: 0.9em;
         color: rgb(85, 82, 82);
     }
 
     /*Text*/
     .text-title {
-        font-size: 0.9em;
+        font-size: 1.1em;
         font-weight: bold;
     }
 
     /* Card Detail */
     .card {
-        margin-top: 30px;
-        width: 390px;
-        height: 500px;
+        margin-top: 40px;
+        width: 290px !important;
+        height: 570px;
         border-radius: 20px;
         position: absolute;
-        left: 20%;
+        left: 10%;
         padding: 1.8rem;
         border: 2px solid #c3c6ce;
         -webkit-transition: 0.5s ease-out;
