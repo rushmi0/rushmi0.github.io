@@ -265,6 +265,7 @@ body {
     pointer-events: none;
 }
 
+
 /* showDetail */
 .carousel.showDetail .list .item:nth-child(3),
 .carousel.showDetail .list .item:nth-child(4) {
@@ -293,7 +294,6 @@ body {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    text-align: right;
     pointer-events: auto;
 }
 
@@ -355,15 +355,17 @@ body {
 }
 
 .arrows {
-    position: absolute;
-    bottom: 10px;
+    position: fixed;
+    bottom: 5%;
     width: 1140px;
-    max-width: 90%;
+    max-width: 80%;
     display: flex;
     justify-content: space-between;
     left: 50%;
     transform: translateX(-50%);
 }
+
+
 
 #prev,
 #next {
@@ -437,7 +439,7 @@ body {
 
     .carousel {
         position: relative;
-        height: 900px;
+        height: 870px;
         overflow: hidden;
         margin-top: -50px;
     }
@@ -468,11 +470,12 @@ body {
 
     /* Card Detail */
     .card {
-        margin-top: 70px;
+        margin-top: 30px;
         width: 390px;
-        height: 530px;
+        height: 500px;
         border-radius: 20px;
-        position: relative;
+        position: absolute;
+        left: 20%;
         padding: 1.8rem;
         border: 2px solid #c3c6ce;
         -webkit-transition: 0.5s ease-out;
@@ -605,7 +608,7 @@ body {
     }
 
     .text-body {
-        font-size: 0.8em;
+        font-size: 0.7em;
         color: rgb(85, 82, 82);
     }
 
@@ -621,7 +624,8 @@ body {
         width: 390px;
         height: 500px;
         border-radius: 20px;
-        position: relative;
+        position: absolute;
+        left: 20%;
         padding: 1.8rem;
         border: 2px solid #c3c6ce;
         -webkit-transition: 0.5s ease-out;
@@ -630,6 +634,8 @@ body {
         background-color: rgba(255, 255, 255, 0.3);
         animation: glowing-border 5s linear infinite;
     }
+
+
 }
 
 /* ======================================================= */
