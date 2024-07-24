@@ -533,7 +533,8 @@ body {
         width: 690px !important;
         height: 740px;
         border-radius: 20px;
-        position: relative;
+        position: absolute;
+        left: 20%;
         padding: 1.8rem;
         border: 2px solid #c3c6ce;
         -webkit-transition: 0.5s ease-out;
