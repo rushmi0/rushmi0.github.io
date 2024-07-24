@@ -352,7 +352,7 @@ body {
 
 .arrows {
     position: fixed;
-    bottom: 7%;
+    bottom: 3%;
     width: 1140px;
     max-width: 80%;
     display: flex;
@@ -393,7 +393,7 @@ body {
     letter-spacing: 3px;
     background-color: transparent;
     padding: 10px;
-    /* opacity: 0; */
+     opacity: 0;
     transition: opacity 0.5s;
 }
 
@@ -431,6 +431,13 @@ body {
 /* ////////////////// Screen Size ////////////////// */
 
 @media screen and (min-width: 1441px) {
+
+    .carousel {
+        position: relative;
+        height: 1140px;
+        overflow: hidden;
+        margin-top: -50px;
+    }
 
     .carousel .list .item .introduce .topic {
         font-size: 6em;
@@ -480,8 +487,15 @@ body {
 
 }
 
-/* For devices with a screen width up to 1200px */
+/* MacBook */
 @media screen and (max-width: 1440px) {
+
+    .carousel {
+        position: relative;
+        height: 960px;
+        overflow: hidden;
+        margin-top: -50px;
+    }
 
     .carousel .list .item .introduce .topic {
         font-size: 6em;
@@ -516,7 +530,7 @@ body {
     /* Card Detail */
     .card {
         margin-top: 90px;
-        width: 390px;
+        width: 690px !important;
         height: 740px;
         border-radius: 20px;
         position: relative;
@@ -531,9 +545,12 @@ body {
 
 }
 
+@media screen and (max-width: 1080px) {
 
-/* Ipad */
-@media screen and (max-width: 768px) {
+    .carousel .list .item .introduce .topic {
+        font-size: 5em;
+        font-weight: 500;
+    }
 
     .carousel .list .item .introduce .des {
         font-size: 150%;
@@ -591,16 +608,88 @@ body {
 }
 
 
-@media screen and (max-width: 390px) {
+/* Ipad */
+@media screen and (max-width: 768px) {
+
+    .carousel .list .item .introduce .topic {
+        font-size: 5em;
+        font-weight: 500;
+    }
 
     .carousel .list .item .introduce .des {
-        font-size: 130%;
+        font-size: 140%;
+        padding-right: 30%;
+        color: rgba(58, 55, 55, 0.6);
+    }
+
+    .carousel {
+        position: relative;
+        height: 1080px;
+        overflow: hidden;
+        margin-top: -50px;
+    }
+
+    /* ipad, tablets */
+    .carousel .list .item {
+        width: 90%;
+    }
+
+    .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
+        overflow: auto;
+    }
+
+    .carousel.showDetail .list .item:nth-child(2) .detail .title {
+        font-size: 2em;
+    }
+
+    /*Text*/
+    .text-title {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .text-body {
+        font-size: 1.1em;
+        color: rgb(85, 82, 82);
+    }
+
+    /* Card Detail */
+    .card {
+        margin-top: 170px;
+        width: 470px !important;
+        height: 700px;
+        border-radius: 20px;
+        position: absolute;
+        left: 20%;
+        padding: 1.8rem;
+        border: 2px solid #c3c6ce;
+        -webkit-transition: 0.5s ease-out;
+        transition: 0.5s ease-out;
+        overflow: visible;
+        background-color: rgba(255, 255, 255, 0.3);
+        animation: glowing-border 5s linear infinite;
+    }
+
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .carousel .list .item .introduce .topic {
+        padding-right: 30%;
+        font-size: 4em;
+        font-weight: 500;
+    }
+
+    .carousel .list .item .introduce .des {
+        font-size: 135%;
+        padding-right: 80%;
         color: rgba(58, 55, 55, 0.6);
     }
 
     /* mobile */
     .carousel {
-        height: 860px;
+        height: 900px;
     }
 
     .carousel .list .item {
@@ -651,7 +740,7 @@ body {
     /* Card Detail */
     .card {
         margin-top: 40px;
-        width: 290px !important;
+        width: 295px !important;
         height: 570px;
         border-radius: 20px;
         position: absolute;
@@ -673,6 +762,7 @@ body {
 
 
 .card-details {
+    margin-top: -2%;
     color: rgb(140, 82, 255);
     height: 100%;
     gap: .5em;
