@@ -631,7 +631,7 @@ body {
 
     /* ipad, tablets */
     .carousel .list .item {
-        width: 90%;
+        width: 80%;
     }
 
     .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
