@@ -674,8 +674,6 @@ body {
 
 
 
-
-
 @media screen and (max-width: 400px) {
 
     .carousel .list .item .introduce .topic {
@@ -696,7 +694,7 @@ body {
     }
 
     .carousel .list .item {
-        width: 100%;
+        width: 80%;
         font-size: 10px;
     }
 
