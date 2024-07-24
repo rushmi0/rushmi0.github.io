@@ -530,7 +530,7 @@ body {
     /* Card Detail */
     .card {
         margin-top: 90px;
-        width: 690px !important;
+        width: 60% !important;
         height: 740px;
         border-radius: 20px;
         position: absolute;
@@ -560,7 +560,7 @@ body {
 
     .carousel {
         position: relative;
-        height: 870px;
+        height: 1260px;
         overflow: hidden;
         margin-top: -50px;
     }
@@ -611,6 +611,7 @@ body {
 
 /* Ipad */
 @media screen and (max-width: 770px) {
+
 
     .carousel .list .item .introduce .topic {
         font-size: 5em;
@@ -675,7 +676,7 @@ body {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 
     .carousel .list .item .introduce .topic {
         padding-right: 30%;
@@ -685,13 +686,13 @@ body {
 
     .carousel .list .item .introduce .des {
         font-size: 135%;
-        padding-right: 90%;
+        padding-right: 75%;
         color: rgba(58, 55, 55, 0.6);
     }
 
     /* mobile */
     .carousel {
-        height: 900px;
+        height: 990px;
     }
 
     .carousel .list .item {
