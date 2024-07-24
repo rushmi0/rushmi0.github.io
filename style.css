@@ -471,7 +471,7 @@ body {
 
     /* Card Detail */
     .card {
-        margin-top: 120px;
+        margin-top: 5%;
         width: 390px;
         height: 860px;
         border-radius: 20px;
@@ -529,7 +529,7 @@ body {
 
     /* Card Detail */
     .card {
-        margin-top: 90px;
+        margin-top: 7%;
         width: 60% !important;
         height: 740px;
         border-radius: 20px;
@@ -591,7 +591,7 @@ body {
 
     /* Card Detail */
     .card {
-        margin-top: 170px;
+        margin-top: -5%;
         width: 390px;
         height: 700px;
         border-radius: 20px;
@@ -742,7 +742,7 @@ body {
 
     /* Card Detail */
     .card {
-        margin-top: 40px;
+        margin-top: -15%;
         width: 295px !important;
         height: 570px;
         border-radius: 20px;
