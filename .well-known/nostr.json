@@ -4,6 +4,7 @@
   },
   "relays": {
     "e4b2c64f0e4e54abb34d5624cd040e05ecc77f0c467cc46e2cc4d5be98abe3e3": [
+      "ws://localhost:6724",
       "wss://nostr-01.yakihonne.com",
       "wss://frens.nostr1.com",
       "wss://nostr-relay.app",
