@@ -1,2 +1,1 @@
-# rushmi0.github.io
-profile
+# [rushmi0.win](https://rushmi0.win)
