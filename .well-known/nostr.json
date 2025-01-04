@@ -5,6 +5,7 @@
   },
   "relays": {
     "e4b2c64f0e4e54abb34d5624cd040e05ecc77f0c467cc46e2cc4d5be98abe3e3": [
+            "wss://fenrir-s.notoshi.win",
             "wss://nos.lol",
             "wss://relay.notoshi.win",
             "wss://nostr.mom",
@@ -21,13 +22,7 @@
             "wss://nostrue.com",
             "wss://nostr-verified.wellorder.net",
             "wss://bitcoiner.social",
-            "wss://relay.farscapian.com",
-            "wss://relay.oldcity-bitcoiners.info",
-            "wss://relay.sovereign-stack.org",
             "wss://relay.damus.io",
-            "wss://nostr.fmt.wiz.biz",
-            "wss://nostr.ch3n2k.com",
-            "wss://relay.orange-crush.com",
             "wss://freespeech.casa",
             "wss://nostr.corebreach.com",
             "wss://nostr.tools.global.id",
@@ -72,7 +67,6 @@
             "wss://unhostedwallet.com",
             "wss://relay.zap.store",
             "wss://nostr2.daedaluslabs.io",
-            "wss://relay.noswhere.com",
             "wss://relay.varke.eu",
             "wss://br.purplerelay.com",
             "wss://relay.nostrcn.com",
@@ -87,8 +81,6 @@
             "wss://nostr.satstralia.com",
             "wss://nostr.carroarmato0.be",
             "wss://strfry.openhoofd.nl",
-            "wss://bostr.nokotaro.work",
-            "wss://bostr.nokotaro.com",
             "wss://nostr-03.dorafactory.org"
     ]
   }
